@@ -4,8 +4,8 @@ const {Provider, Consumer} = React.createContext()
 class ThemeContextProvider extends Component {
     state = {
         theme: "default"
+    
     }
-
     toggleTheme = () => {
         this.setState(prevState =>{
             return {
@@ -21,5 +21,6 @@ class ThemeContextProvider extends Component {
         )
     }
 }
+
 
 export {ThemeContextProvider, Consumer as ThemeContextConsumer}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1604161971202-9bfe6232146d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+
+
+#my-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: rgb(217, 208, 226);
+}
+
+#my-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+#my-Items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: cornsilk;
+}
+
+@media only screen and (min-width:768px) {
+    #my-header {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        color: rgb(217, 208, 226);
+    }
+    
+    #my-form {
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    
+    #my-Items {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        line-height: 2px;
+        gap: 10px;
+        margin: 10px;
+        justify-content: space-between;
+        align-content: space-around;
+        color: cornsilk;
+    }
+}
