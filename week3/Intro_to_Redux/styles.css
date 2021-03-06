@@ -1,0 +1,59 @@
+body {
+    background-color: coral;
+}
+
+
+#container {
+    position: relative;
+    border: 1px solid blue;
+    background-color: orangered;
+}
+
+#timer {
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+#records {
+    border: 1px solid blue;
+    width: 50px;
+    background-color: orangered;
+}
+
+@media only screen and (min-width: 400px) {
+    #container {
+        position: relative;
+        border: 1px solid blue;
+        background-color: orangered;
+    }
+    
+    #timer {
+        width: 100%;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    
+    .buttons {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    
+    #records {
+        border: 1px solid blue;
+        width: 100px;
+        background-color: orangered;
+    }
+}
