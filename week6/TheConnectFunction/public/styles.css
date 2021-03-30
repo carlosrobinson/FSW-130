@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://images.unsplash.com/photo-1592085156079-6926b5e08b5a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+
+#title {
+    text-align: center;
+    color: white;
+}
+
+.my-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.my-contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    color: rgb(240, 217, 10);
+}
+
+#contact-btn {
+margin: auto;
+text-align: center;
+}
