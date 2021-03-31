@@ -1,0 +1,64 @@
+body {
+    margin: 50px;
+    padding: 5px;
+    background-color: yellow;
+}
+#myheader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gray;
+}
+
+#root {
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "main main main"
+    "main main main"
+    "footer footer footer"
+    20px 20px 20px 10%;
+    justify-items: center;
+    height: 300px;
+    
+}
+
+#main {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 445px;
+    background-color: blue;
+}
+
+#navbar {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row: 1 /2;
+    height: 55px;
+    background-color: red; 
+}
+h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#calculate {
+    position: relative;
+    background-color: whitesmoke;
+    grid-row: 2 /3;
+    grid-column: 2/3;
+}
+#footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color:lightslategray;
+    height: 80px;
+    
+}

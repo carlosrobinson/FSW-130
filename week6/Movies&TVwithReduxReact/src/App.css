@@ -1,0 +1,309 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1542623024-a797a755b8d0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80&w=1080");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 499px) {
+    header {
+        color: white;
+        text-align: center;
+        text-shadow: black 2px 2px 3px;
+        font-size: 48px;
+        font-family: "50 blizzards";
+    }
+    footer {
+        color: white;
+        text-align: center;
+        text-shadow: black 2px 2px 3px;
+        font-size: 30px;
+    }
+    .appDiv {
+        background-color: rgba(128, 128, 128, 0.255);
+    }
+    .navBtn {
+        background-color: rgba(0, 60, 255, 0.372);
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .link {
+        color: white;
+        text-shadow: black 1px 2px 3px;
+        font-size: 24px;
+    }
+    #tvForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #movieForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleInput {
+        font-size: 30px;
+    }
+    #addMovieBtn {
+        background-color: rgba(0, 128, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    #addShowBtn {
+        background-color: rgba(0, 128, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .movie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .movieTitle {
+        text-shadow: white 1px 1px 2px;
+        color: blue;
+        font-family: "50 blizzards";
+    }
+    .movieDelBtn {
+        background-color: rgba(255, 0, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .show {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .showTitle {
+        text-shadow: white 1px 1px 2px;
+        color: blue;
+        font-family: "50 blizzards";
+    }
+    .showDelBtn {
+        background-color: rgba(255, 0, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1099px) {
+    header {
+        color: white;
+        text-align: center;
+        text-shadow: black 2px 2px 3px;
+        font-size: 48px;
+        font-family: "50 blizzards";
+    }
+    footer {
+        color: white;
+        text-align: center;
+        text-shadow: black 2px 2px 3px;
+        font-size: 30px;
+    }
+    .appDiv {
+        background-color: rgba(128, 128, 128, 0.255);
+    }
+    .navBtn {
+        background-color: rgba(0, 60, 255, 0.372);
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .link {
+        color: white;
+        text-shadow: black 1px 2px 3px;
+        font-size: 24px;
+    }
+    #tvForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #movieForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleInput {
+        font-size: 30px;
+    }
+    #addMovieBtn {
+        background-color: rgba(0, 128, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    #addShowBtn {
+        background-color: rgba(0, 128, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .movie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .movieTitle {
+        text-shadow: white 1px 1px 2px;
+        color: blue;
+        font-family: "50 blizzards";
+    }
+    .movieDelBtn {
+        background-color: rgba(255, 0, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .show {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .showTitle {
+        text-shadow: white 1px 1px 2px;
+        color: blue;
+        font-family: "50 blizzards";
+    }
+    .showDelBtn {
+        background-color: rgba(255, 0, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    header {
+        color: white;
+        text-align: center;
+        text-shadow: black 2px 2px 3px;
+        font-size: 48px;
+        font-family: "50 blizzards";
+    }
+    footer {
+        color: white;
+        text-align: center;
+        text-shadow: black 2px 2px 3px;
+        font-size: 30px;
+    }
+    .appDiv {
+        background-color: rgba(128, 128, 128, 0.255);
+    }
+    .navBtn {
+        background-color: rgba(0, 60, 255, 0.372);
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .link {
+        color: white;
+        text-shadow: black 1px 2px 3px;
+        font-size: 24px;
+    }
+    #tvForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #movieForm {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .titleInput {
+        font-size: 30px;
+    }
+    #addMovieBtn {
+        background-color: rgba(0, 128, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    #addShowBtn {
+        background-color: rgba(0, 128, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .movie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .movieTitle {
+        text-shadow: white 1px 1px 2px;
+        color: blue;
+        font-family: "50 blizzards";
+    }
+    .movieDelBtn {
+        background-color: rgba(255, 0, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+    .show {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .showTitle {
+        text-shadow: white 1px 1px 2px;
+        color: blue;
+        font-family: "50 blizzards";
+    }
+    .showDelBtn {
+        background-color: rgba(255, 0, 0, 0.462);
+        color: white;
+        border: 2px outset;
+        border-radius: 15px;
+        font-family: "50 blizzards";
+    }
+}
