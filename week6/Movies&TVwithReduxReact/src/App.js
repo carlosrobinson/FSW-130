@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { connect } from "react-redux";
-import { Switch, Route } from "react-router-dom";
+ 
 import Movies from "./components/movies/list";
 import TvShows from "./components/tvShows/list";
 import Navbar from "./components/Navbar";
@@ -38,7 +38,7 @@ function App(props) {
   );
 }
 function mapStateToProps(globalState) {
-  // console.log(globalState);
+  console.log(globalState);
   return {
     payload: globalState,
   };

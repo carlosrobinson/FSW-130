@@ -3,7 +3,7 @@ import Header from "./header";
 import Form from "./form";
 import { useDispatch } from "react-redux";
 export default function Movies(props) {
-  const { add, /* get, */ state, del } = props;
+  //  
   const dispatch = useDispatch();
   const movies = state.movies;
   function onDelete(e) {
